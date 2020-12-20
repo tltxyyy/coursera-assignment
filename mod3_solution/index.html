@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mod3.css">
+
+
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html">Food, LLC</a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>     <!-- putting horizontal lines inside our button; hamburger -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs"> 
+            <!-- nav & navbar-nav = i'm going to be a component of our navigation bar, visible-xs here -->
+            <li><a href="#chicken-segment">Chicken</a></li>
+            <li><a href="#beef-segment">Beef</a></li>
+            <li><a href="#sushi-segment">Sushi</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="container-fluid">
+
+    <h1 id="Menu-button"> Our Menu </h1>
+
+    <div class="main-wrapper">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="box" id="chicken-segment">
+              <h2>Chicken</h2>
+              <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae elit id felis semper sagittis. Nulla tincidunt nulla eu aliquet posuere. 
+                Etiam vel ullamcorper nibh. Vivamus ullamcorper faucibus quam non lacinia. Cras nibh enim, bibendum eu velit in, pharetra accumsan purus. Maecenas aliquam magna ac ultricies gravida. 
+                Fusce ac lorem eu quam feugiat iaculis. Curabitur malesuada augue eu tellus fringilla, sit amet blandit quam luctus. Maecenas ac nisl non libero semper tempor. Maecenas bibendum risus 
+                sit amet augue imperdiet hendrerit. Vivamus semper non risus eget ornare. Aenean mauris ipsum, laoreet eget sollicitudin eget, vulputate at quam. Pellentesque et pellentesque sem. 
+                Nunc lacinia, ipsum in varius scelerisque, elit nisl mollis sem, vel maximus turpis erat non erat. Quisque vitae neque in ante semper finibus. In consectetur vitae turpis vel luctus. 
+                In mollis arcu velit, sed rutrum neque finibus sed.Nam imperdiet aliquet cursus. Cras mi erat, malesuada a gravida nec, egestas eu orci. Etiam eget ex nec enim consectetur accumsan a 
+                at lacus. Duis ornare fermentum orci. Nunc quis ante in metus feugiat suscipit consequat quis magna. Integer velit arcu, mattis ut dapibus eget, elementum et nisi. Proin dolor est, 
+                ultrices ut nisl quis, pretium fermentum lectus. Morbi laoreet purus vel libero imperdiet vehicula. Aenean venenatis mauris eget libero euismod viverra. Suspendisse ut metus eget tellus 
+                facilisis tempor eu in tellus. Vestibulum eget magna maximus est ultricies euismod. Mauris eu vehicula est. Pellentesque diam metus, porta a auctor ut, maximus in dui.
+                </p> 
+              <span>(End of Chicken section)</span>
+              <a href="#Menu-button" class="inline">Back to top</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="box" id="beef-segment">            
+              <h2>Beef</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae elit id felis semper sagittis. Nulla tincidunt nulla eu aliquet posuere. 
+                  Etiam vel ullamcorper nibh. Vivamus ullamcorper faucibus quam non lacinia. Cras nibh enim, bibendum eu velit in, pharetra accumsan purus. Maecenas aliquam magna ac ultricies gravida. 
+                  Fusce ac lorem eu quam feugiat iaculis. Curabitur malesuada augue eu tellus fringilla, sit amet blandit quam luctus. Maecenas ac nisl non libero semper tempor. Maecenas bibendum risus 
+                  sit amet augue imperdiet hendrerit. Vivamus semper non risus eget ornare. Aenean mauris ipsum, laoreet eget sollicitudin eget, vulputate at quam. Pellentesque et pellentesque sem. 
+                  Nunc lacinia, ipsum in varius scelerisque, elit nisl mollis sem, vel maximus turpis erat non erat. Quisque vitae neque in ante semper finibus. In consectetur vitae turpis vel luctus. 
+                  In mollis arcu velit, sed rutrum neque finibus sed.Nam imperdiet aliquet cursus. Cras mi erat, malesuada a gravida nec, egestas eu orci. Etiam eget ex nec enim consectetur accumsan a 
+                  at lacus. Duis ornare fermentum orci. Nunc quis ante in metus feugiat suscipit consequat quis magna. Integer velit arcu, mattis ut dapibus eget, elementum et nisi. Proin dolor est, 
+                  ultrices ut nisl quis, pretium fermentum lectus. Morbi laoreet purus vel libero imperdiet vehicula. Aenean venenatis mauris eget libero euismod viverra. Suspendisse ut metus eget tellus 
+                  facilisis tempor eu in tellus. Vestibulum eget magna maximus est ultricies euismod. Mauris eu vehicula est. Pellentesque diam metus, porta a auctor ut, maximus in dui.</p>
+              <span>(End of Beef section)</span>
+              <a href="#Menu-button" class="inline">Back to top</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <div class="box" id="sushi-segment">
+              <h2>Sushi</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae elit id felis semper sagittis. Nulla tincidunt nulla eu aliquet posuere. 
+                Etiam vel ullamcorper nibh. Vivamus ullamcorper faucibus quam non lacinia. Cras nibh enim, bibendum eu velit in, pharetra accumsan purus. Maecenas aliquam magna ac ultricies gravida. 
+                Fusce ac lorem eu quam feugiat iaculis. Curabitur malesuada augue eu tellus fringilla, sit amet blandit quam luctus. Maecenas ac nisl non libero semper tempor. Maecenas bibendum risus 
+                sit amet augue imperdiet hendrerit. Vivamus semper non risus eget ornare. Aenean mauris ipsum, laoreet eget sollicitudin eget, vulputate at quam. Pellentesque et pellentesque sem. 
+                Nunc lacinia, ipsum in varius scelerisque, elit nisl mollis sem, vel maximus turpis erat non erat. Quisque vitae neque in ante semper finibus. In consectetur vitae turpis vel luctus. 
+                In mollis arcu velit, sed rutrum neque finibus sed.Nam imperdiet aliquet cursus. Cras mi erat, malesuada a gravida nec, egestas eu orci. Etiam eget ex nec enim consectetur accumsan a 
+                at lacus. Duis ornare fermentum orci. Nunc quis ante in metus feugiat suscipit consequat quis magna. Integer velit arcu, mattis ut dapibus eget, elementum et nisi. Proin dolor est, 
+                ultrices ut nisl quis, pretium fermentum lectus. Morbi laoreet purus vel libero imperdiet vehicula. Aenean venenatis mauris eget libero euismod viverra. Suspendisse ut metus eget tellus 
+                facilisis tempor eu in tellus. Vestibulum eget magna maximus est ultricies euismod. Mauris eu vehicula est. Pellentesque diam metus, porta a auctor ut, maximus in dui.</p>
+              <span>(End of Sushi section)</span>
+              <a href="#Menu-button" class="inline">Back to top</a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
