@@ -45,10 +45,6 @@ body {
     margin-top: -48px;
 }
 
-h1 {
-    text-align: center;
-}
-
 .col-lg-4 {
     width: 100%;
     float: left;
@@ -66,7 +62,7 @@ h1 {
 
 p {
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .food {
@@ -100,10 +96,10 @@ h2 {
 }
 
 span {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .box a {
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: underline;
 }
